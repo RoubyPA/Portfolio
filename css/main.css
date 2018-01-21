@@ -1,0 +1,144 @@
+/* Font definition */
+@font-face {
+    font-family: ELRaleway;
+    src: url(/fonts/raleway/Raleway-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: ELRaleway;
+    src: url(/fonts/raleway/Raleway-Light.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: LRaleway;
+    src: url(/fonts/raleway/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: LRaleway;
+    src: url(/fonts/raleway/Raleway-Medium.ttf);
+    font-weight: bold;
+}
+
+html {
+    color: #222;
+    background: #f13939;
+    font-family: "LRaleway";
+}
+
+body {
+    background-color: #f5f5f5;
+    vertical-align: middle;
+    margin: 0px;
+    background-image: url("../img/swoosh.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-size: 1000px;
+
+}
+
+header {
+    background: #f13939;
+}
+
+nav {
+    background: #f13939;
+    font-size: 1,25em;
+    box-shadow: 0px 8px 8px #666;
+}
+
+iframe {
+    margin: 25px;
+    box-shadow: 5px 5px 10px #222;
+    width: 80%;
+    min-height: 800px;
+}
+
+img {
+    margin: 20px;
+    box-shadow: 8px 8px 8px #666;
+    max-width: 80%;
+    background: #fff;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    color: #f13939;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #666;
+}
+
+footer {
+    padding: 8px;
+    font-size: 0.75em;
+    background: #f13939;
+    box-shadow: 0px -8px 8px #666;
+}
+
+.main {
+    /* background-color: #f5f5f5; */
+    min-height: 500px;
+}
+
+.banner {
+    font-size: 50px;
+    font-family: "ELRaleway";
+}
+
+.article {
+    max-width: 45%;
+    min-width: 320px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.split_article {
+    max-width: 60%;
+    min-width: 320px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+a.block {
+    color: #eee;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration:none;
+    background-color: #f13939;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+}
+
+a.block:hover {
+    background-color: #f15555;
+}
+
+a.footer {
+    color: #eee;
+    font-weight: bold;
+}
+
+a.footer:hover {
+    color: #aaa;
+}
