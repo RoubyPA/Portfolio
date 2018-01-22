@@ -28,7 +28,7 @@
       <h2>Par e-mail</h2>
       <ul>
 	<li>Email: <a href="mailto:contact@parouby.fr">
-	    contact@parouby.fr</a>
+	    contact@parouby.fr</a> | <a href="files/parouby.pub.asc">GPG</a>
 	</li>
       </ul>
 
