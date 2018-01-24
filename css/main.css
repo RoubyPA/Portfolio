@@ -119,6 +119,10 @@ footer {
     
 }
 
+.formulaire {
+    padding: 15px;
+}
+
 a.block {
     color: #eee;
     font-style: normal;

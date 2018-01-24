@@ -25,11 +25,37 @@
     
     <div id="contact" class="main">
       <h1>Me contacter</h1>
-      <h2>Par e-mail</h2>
+      <h2>Mail</h2>
+      <div class="formulaire">
+	<form method=POST action=sendmail.php >
+	  <input type=hidden name=subject value=formmail>
+	  <table>
+	    <tr>
+	      <td>Votre Nom:</td>
+	      <td><input type=text name=realname size=30></td>
+	    </tr>
+	    <tr>
+	      <td>Votre Email:</td>
+	      <td><input type=text name=email size=30></td>
+	    </tr>
+	    <tr>
+	      <td>Sujet:</td>
+	      <td><input type=text name=subject size=30></td>
+	    </tr>
+	    <tr>
+	      <td colspan=2>Message:<br>
+		<textarea COLS=50 ROWS=6 name=message></textarea>
+	      </td>
+	    </tr>
+	  </table>
+	  <br> <input type=submit value=Envoyer> -
+	  <input type=reset value=Annuler>
+	</form>
+      </div>
+      
       <ul>
-	<li>Email: <a href="mailto:contact@parouby.fr">
-	    contact@parouby.fr</a> | <a href="files/parouby.pub.asc">GPG</a>
-	</li>
+      	<li>GPG public key: <a href="files/parouby.pub.asc">GPG</a>
+      	</li>
       </ul>
 
       <h2>Réseaux sociaux</h2>
