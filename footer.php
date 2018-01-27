@@ -9,7 +9,7 @@
 		       alt="Code source de cette page web"
 		       class="footer">
 	GitHub</a></br>
-      Powered by <a href="https://freepasta.fr" class="footer">FreePasta.fr</a>
+      Powered by <a href="https://www.kimsufi.com/" class="footer">kimsufi.com</a>
     </center>
   </div>
 </footer>

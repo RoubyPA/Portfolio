@@ -1,23 +1,23 @@
 /* Font definition */
 @font-face {
     font-family: ELRaleway;
-    src: url(/fonts/raleway/Raleway-ExtraLight.ttf);
+    src: url(../fonts/raleway/Raleway-ExtraLight.ttf);
 }
 
 @font-face {
     font-family: ELRaleway;
-    src: url(/fonts/raleway/Raleway-Light.ttf);
+    src: url(../fonts/raleway/Raleway-Light.ttf);
     font-weight: bold;
 }
 
 @font-face {
     font-family: LRaleway;
-    src: url(/fonts/raleway/Raleway-Light.ttf);
+    src: url(../fonts/raleway/Raleway-Light.ttf);
 }
 
 @font-face {
     font-family: LRaleway;
-    src: url(/fonts/raleway/Raleway-Medium.ttf);
+    src: url(../fonts/raleway/Raleway-Medium.ttf);
     font-weight: bold;
 }
 
@@ -50,10 +50,9 @@ nav {
 }
 
 iframe {
-    margin: 25px;
     box-shadow: 5px 5px 10px #222;
-    width: 80%;
-    min-height: 800px;
+    width: 90%;
+    min-height: 400px;
 }
 
 img {
@@ -116,7 +115,12 @@ footer {
     min-width: 320px;
     display: inline-block;
     vertical-align: top;
-    
+}
+
+.ifram_cv {
+    min-width: 45%;
+    margin: 15px;
+    display: inline-block;
 }
 
 .formulaire {
