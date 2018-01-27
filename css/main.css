@@ -55,11 +55,17 @@ iframe {
     min-height: 400px;
 }
 
-img {
+img.bg {
     margin: 20px;
     box-shadow: 8px 8px 8px #666;
     max-width: 80%;
     background: #fff;
+}
+
+img.signature {
+    margin-right: 50px;
+    width: 100px;
+    float: right;
 }
 
 h2 {

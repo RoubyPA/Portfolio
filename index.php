@@ -59,6 +59,7 @@
 	     alt="Site web de la rencontre mondial du logiciel libre 2017">
 	    RMDLL</a> (Rencontre Mondial du Logiciel Libre).
 	</p>
+	<img class="signature" src="img/Signature.png" alt="Signature" />
       </div>
 
       <div class="article">
@@ -89,8 +90,9 @@
 	<p>Menbre de l'<a href="https://www.april.org">April</a>
 	  depuis 2017</p>
 	<a href="https://www.april.org/">
-	  <img src="img/logo-april.png"
-	       alt="April - Promouvoir et soutenir le logiciel libre" />
+	  <img class="bg"
+	    src="img/logo-april.png"
+	    alt="April - Promouvoir et soutenir le logiciel libre" />
 	</a>
       </div>
       
