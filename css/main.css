@@ -160,6 +160,10 @@ a.block:hover {
     background-color: #f15555;
 }
 
+#footer {
+    text-align: center;
+}
+
 a.footer {
     color: #eee;
     font-weight: bold;
