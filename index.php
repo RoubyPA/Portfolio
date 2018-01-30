@@ -87,7 +87,7 @@
 
       <div class="split_article">
 	<h2>Association</h2>
-	<p>Menbre de l'<a href="https://www.april.org">April</a>
+	<p>Membre de l'<a href="https://www.april.org">April</a>
 	  depuis 2017</p>
 	<a href="https://www.april.org/">
 	  <img class="bg"
@@ -111,7 +111,7 @@
 	<ul>
 	  <li><a href="cv.php"
 		 alt="Mon CV">
-	      Retrouvé mon cv ici.</a>
+	      Retrouver mon cv ici.</a>
 	  </li>
 	</ul>
       </div>
