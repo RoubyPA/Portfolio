@@ -21,10 +21,22 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: cnr;
+    src: url('../fonts/code_new_roman/Code New Roman.otf');
+}
+
+@font-face {
+    font-family: cnr;
+    src: url('../fonts/code_new_roman/Code New Roman b.otf');
+    font-weight: bold;
+}
+
 html {
     color: #222;
     background: #f13939;
     font-family: "LRaleway";
+    font-size: 1.15em;
 }
 
 body {
@@ -155,4 +167,8 @@ a.footer {
 
 a.footer:hover {
     color: #aaa;
+}
+
+.hash {
+    font-family: "cnr";
 }

@@ -25,7 +25,7 @@
     <div class="main">
       <h1>Mon CV</h1>
       <div class="article">
-	<h2>Mes expériences</h2>
+	<h2>Expériences</h2>
 	<ul>
 	  <li>
 	    <strong><a href="http://ponant-technologies.com/"
@@ -66,7 +66,7 @@
 
       
       <div class="article">
-	<h2>Mes formations</h2>
+	<h2>Formations</h2>
 	<ul>
 	  <li>
 	    <strong>Licence Pro ADSILLH</strong> | Administrateur et Développeur
@@ -90,20 +90,38 @@
 	</ul>
       </div>
       
-      <div class="article">
-	<h2>Télécharger mon CV</h2>
+      <div class="split_article">
+	<h2>Téléchargement</h2>
 	  <ul>
 	    <li><a href="files/rouby_pa.pdf" alt="Cv en français">
-		CV (fr)</a></li>
-	    <li><a href="files/rouby_pa_EN.pdf" alt="Cv en français">
-		CV (en)</a></li>
+		Version Française</a>
+	      <ul>
+		<li>
+		  MD5 <span class="hash">ffd1b4e2f8004872ec5e0b4c3e37fab8</span>
+		</li>
+		<li>
+		  SHA256 <span  class="hash">ec07884ef5bc4b07c4f1e44601fb251eacbf381053dff7f4bbbf87dbfdef9dbd</span>
+		</li>
+	      </ul>
+	    </li>
+	    <li><a href="files/rouby_pa_EN.pdf" alt="Cv en anglais">
+		English version</a>
+	      <ul>
+		<li>
+		  MD5 <span class="hash">7ca92bd1f297863ec9564618f5294b0d</span>
+		</li>
+		<li>
+		  SHA256 <span class="hash">aa7bc59c91f69d6ec1ae02c1091f71834bac600677d4f96d5643151943edc379</span>
+		</li>
+	      </ul>
+	    </li>
 	  </ul>
       </div>
 
       <br>
       
       <div>
-	<h2>Voir mon cv</h2>
+	<h2>Voir</h2>
 	<div class="ifram_cv">
 	  <h3>Français</h3>
 	  <iframe src="files/rouby_pa.pdf"></iframe>
