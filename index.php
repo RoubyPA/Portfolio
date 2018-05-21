@@ -65,6 +65,12 @@
       <div class="article">
 	<h2>News</h2>
 	<ul>
+          <li>Debut de mon stage de licence pro ADISLLH à l'
+            <a href="https://inria.fr"
+               alt="Site web de l'inria">inria</a> sur le projet
+            <a href="https://guix-hpc.bordeaux.inria.fr"
+               alt="Site web du projet guix-hpc">guix-hpc</a>.
+          </li>
 	  <li>Cette année 2018 je serrais au
 	    <a href="https://fosdem.org/2018/"
 	       alt="Fosdem 2018 - Rencontre pour les developper de logiciel 
@@ -99,6 +105,11 @@
       <div class="split_article">
 	<h2>Mes contributions</h2>
 	<ul>
+          <li><a href="https://gnu.org/software/guix"
+		 alt="Projet GNU Guix">
+	      GNU Guix</a>
+	  </li>
+
 	  <li><a href="https://wiki.gnome.org/Games"
 		 alt="Wiki du logiciel GNOME-Games">
 	      GNOME-Games</a>

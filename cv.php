@@ -27,6 +27,23 @@
       <div class="article">
 	<h2>Expériences</h2>
 	<ul>
+          <li>
+	    <strong><a href="https://inria.fr/"
+		       alt="Site de l'inria">
+		Inria Bordeaux Sud-Ouest</a></strong> |
+	    Developpeur sur le projet Guix-hpc </br>
+	    2018 - 4 mois (<strong>en cours</strong>) |
+            Talence 33400 </br>
+	    <ul>
+              <li>Définition de paquet pour des logiciels
+                <strong>hpc</strong></li>
+	      <li>Contribution au projet
+                <a href="https://gnu.org/software/guix"
+                   alt="Projet GNU Guix">GNU Guix</a></li>
+	      <li>Migration de server</li>
+	    </ul>
+	  </li>
+
 	  <li>
 	    <strong><a href="http://ponant-technologies.com/"
 		       alt="Site de l'entreprise Ponant Technologie">
