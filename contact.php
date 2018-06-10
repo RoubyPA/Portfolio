@@ -73,18 +73,15 @@
       
       <h2>Forge de développement</h2>
       <ul>
+	<li>Framagit: <a href="https://framagit.org/prouby">
+	    PRouby</a>
+	</li>
 	<li>GitHub: <a href="https://github.com/RoubyPA">
 	    RoubyPA</a>
 	</li>
-	<li>GNOME
-	  <ul>
-	    <li>
-	      GitLab: <a href="https://gitlab.gnome.org/RoubyPA">
-		RoubyPA</a>
-	    </li>
-	  </ul>
+	<li>GNOME: <a href="https://gitlab.gnome.org/RoubyPA">
+	    RoubyPA</a>
 	</li>
-	
       </ul>
     </div>
     
