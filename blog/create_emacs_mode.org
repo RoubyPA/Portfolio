@@ -200,10 +200,6 @@ d'un =make upgrade=.
 
 * La suite
 
-Il est donc possible d'installer le mode avec la commande =make
-install=, puis de le mettre à jours en fessant un =git pull= suivi
-d'un =make upgrade=.
-
 Pour la suite du projet il faut penser à ajouter des fonctionnalités
 (logo de la distrib, plus d'information sur le système, etc.), et
 prendre en charge plus de système d'exploitation.
