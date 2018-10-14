@@ -13,17 +13,17 @@ plutôt sympa.
 
 Je me suis dit qu'une version Emacs ne serais pas une mauvaise
 idée. Comme j'avais un peu de temps ce weekend je me suis mis au
-travail. Et voila le projet =eftech= qui est lancer, le dépôt Git est
-créé [[https://framagit.org/prouby/emacs-fetch]], reste plus qu'a écrire
+travail. Et voilà le projet =efetch= qui est lancé, le dépôt Git est
+créé [[https://framagit.org/prouby/emacs-fetch]], reste plus qu'à écrire
 du code !
 
 * Le code
 
-Problème, hormis ma configuration Emacs je n'ai jamais écrie de code
+Problème, hormis ma configuration Emacs je n'ai jamais écris de code
 en emacs lisp... J'ai déjà eu l'occasion de coder en GNU Guile ou en
 Ocaml donc le paradigme fonctionnel ne me pose pas particulièrement de
-problème. Par contre je me dis qu'un tuto elisp, pour la gestion des
-buffers en emacs lisp par exemple, pourrai mettre utile.
+problème. Par contre, je me dis qu'un tuto elisp, pour la gestion des
+buffers en emacs lisp par exemple, pourrai m'être utile.
 
 Très vite je tombe sur ce site web plutôt bien fait :
 [[http://ergoemacs.org/emacs/elisp.html]], qui contient toutes les infos
@@ -32,14 +32,14 @@ dont j'ai besoin.
 Il faut encore réfléchir à comment récupérer les informations sur le
 système. Pour les infos sur l'OS il y a la commande =lsb_release=,
 mais je suis actuellement sur un =GuixSD= qui n'utilise pas
-=lsb_release= comme de nombreux système GNU/Linux. La méthode de
-détection de l'OS n'est donc pas la même en fonction du système sur le
-quelle on est.
+=lsb_release= comme de nombreux systèmes GNU/Linux. La méthode de
+détection de l'OS n'est donc pas la même en fonction du système sur
+lequel on est.
 
 Voici une fonction qui permet de récupérer le nom et la version du
-système. Pour le moment elle détecte les OS qui utilise =lsb_release=
-ou =guix=, il faudra ajouter des méthodes supplémentaires pour les
-autres systèmes dans le futur.
+système. Pour le moment elle détecte les OS qui utilisent
+=lsb_release= ou =guix=, il faudra ajouter des méthodes
+supplémentaires pour les autres systèmes dans le futur.
 
 #+BEGIN_SRC emacs-lisp
 (defun ef-distro ()
@@ -60,7 +60,7 @@ autres systèmes dans le futur.
 #+END_SRC
 
 Pour les informations sur le noyau, la commande =uname= permet
-d'accéder a toutes les informations dont nous avons besoins. Je crée
+d'accéder a toutes les informations dont nous avons besoin. Je crée
 une fonction supplémentaire.
 
 #+BEGIN_SRC emacs-lisp
@@ -97,8 +97,8 @@ de cuisine pourrait se simplifier comme ceci :
  - Insérer les infos
 
 Je rajoute une image, fix pour le moment on pourrait la remplacer par
-le logo de l'OS dans le futur. Je mets aussi le buffer en lecture seul
-par défaut.
+le logo de l'OS dans le futur. Je mets aussi le buffer en lecture
+seule par défaut.
 
 #+BEGIN_SRC emacs-lisp
 (defun efetch ()
@@ -133,7 +133,7 @@ par défaut.
 
 * Le resultat
 
-Et voila le résultat !
+Et voilà le résultat !
 
 #+CAPTION: Efetch sous Emacs 26 avec le thème Tango
 #+NAME: efetch
@@ -141,8 +141,8 @@ Et voila le résultat !
 
 * Le Makefile
 
-Voici sans doute le =Makefile= le plus complexe que j'ai jamais écrie
-jusque la. /Je plains la personne qui va vouloir le relire !/
+Voici sans doute le =Makefile= le plus complexe que je n'ai jamais
+écrit jusque là. /Je plaint la personne qui va vouloir le relire !/
 
 Déjà il utilise un certain nombre de variables :
 
@@ -195,8 +195,8 @@ payload:
 #+END_SRC
 
 Il est donc possible d'installer le mode avec la commande =make
-install=, puis de le mettre à jours en fessant un =git pull= suivi
-d'un =make upgrade=.
+install=, puis de le mettre à jour en fessant un =git pull= suivi d'un
+=make upgrade=.
 
 * La suite
 
@@ -204,8 +204,8 @@ Pour la suite du projet il faut penser à ajouter des fonctionnalités
 (logo de la distrib, plus d'information sur le système, etc.), et
 prendre en charge plus de système d'exploitation.
 
-Mais le projet manque aussi cruellement de documentation, à l'heure ou
+Mais le projet manque aussi cruellement de documentation, à l'heure où
 j'écris ces mots il n'y a pas encore de =README= dans le projet.
 
-De plus il serait intéressant de créer un paquet Guix pour son
+De plus, il serait intéressant de créer un paquet Guix pour son
 installation.
