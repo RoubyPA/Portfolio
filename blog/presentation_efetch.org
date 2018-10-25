@@ -1,0 +1,62 @@
+#+title: Presentation d'efetch
+#+startup: indent
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="main.css" />
+
+* Intro
+
+Bonjour à tous. Vous connaissez peut-être /neofetch/, cette commande
+qui permet d'avoir des informations sur le système avec un affichage
+plutôt sympa.
+
+#+CAPTION: Neofetch sous GuixSD
+#+NAME: neofetch
+[[./neofetch.png]]
+
+Je me suis dit qu'une version Emacs ne serais pas une mauvaise idée,
+de plus j'avais envie de me mettre a l'/Emacs-Lisp/. J'ai donc passer
+un peut de temps à travailler dessus.
+
+* Efetch
+
+Je me suis inspiré de l'affichage de neofetch et l'ai addapté a
+emacs. De plus efetch ajouter des informations sur emacs comme la
+version et l'uptime de de la session en cours.
+
+#+CAPTION: efetch sous GuixSD /(version master du 25/10/2018)/
+#+NAME: efetch
+[[./efetch_01.png]]
+
+** Configuration
+
+L'interface est facilement personnalisable. Il est possible d'ajouter
+des données à afficher en ajoutant quelque ligne dans sont =.emacs=.
+
+#+BEGIN_SRC emacs-lisp
+(setq ef-additional-data '(("<name>" . "<value>"))
+#+END_SRC
+
+Il est aussi possible de personnaliser l'image à afficher avec la
+variable =ef-custom-image=.
+
+#+BEGIN_SRC emacs-lisp
+(setq ef-custom-image "<image_path>")
+#+END_SRC
+
+De plus certain fonctions sont susceptible de prendre un certain temps
+à l'exécution, il est possible de les déactiver avec la variable
+=ef-fast-display= à /true/.
+
+#+BEGIN_SRC emacs-lisp
+(setq ef-fast-display t)
+#+END_SRC
+
+** HACKING
+
+Le projet est actuellement en version =0.0.3= mais il est en bonne
+route pour une nouvelle release. Le projet est libre /GPLv3/ et toutes
+les contributions sont les bienvenues. Pour ma part je travail
+principalement sous GuixSD, donc si votre système n'est pas pris en
+charge, n'hésiter pas le rajouter.
+
+Le dépôt Git est disponible ici: https://framagit.org/prouby/emacs-fetch.
