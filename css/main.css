@@ -34,7 +34,7 @@
 
 html {
     color: #222;
-    background: #f13939;
+    background: #4b0069;
     font-family: "LRaleway";
     font-size: 1.15em;
 }
@@ -52,11 +52,11 @@ body {
 }
 
 header {
-    background: #f13939;
+    background: #4b0069;
 }
 
 nav {
-    background: #f13939;
+    background: #4b0069;
     font-size: 1,25em;
     box-shadow: 0px 8px 8px #666;
 }
@@ -95,7 +95,7 @@ p {
 }
 
 a {
-    color: #f13939;
+    color: #4b0069;
     text-decoration:none;
     font-weight: bold;
 }
@@ -107,7 +107,7 @@ a:hover {
 footer {
     padding: 8px;
     font-size: 0.75em;
-    background: #f13939;
+    background: #4b0069;
     box-shadow: 0px -8px 8px #666;
 }
 
@@ -150,7 +150,7 @@ a.block {
     font-style: normal;
     font-weight: bold;
     text-decoration:none;
-    background-color: #f13939;
+    background-color: #4b0069;
     text-align: center;
     display: inline-block;
     padding: 15px;
