@@ -21,14 +21,14 @@
 
     <!-- Insert nav -->
     <?php include('nav.php') ?>
-  
+
     <div class="main">
       <div class="article">
-        <h2>Création d'un mode emacs (efetch)</h2>
-        <p>Vous pouvez retouver
-          <a href="blog/create_emacs_mode.html">ici</a> mon première
-          article de blog sur la création du mode emacs
-          (<a href="https://framagit.org/prouby/emacs-fetch">efetch</a>).
+        <h2>Presentation d'efetch</h2>
+        <p>Retouvez
+          <a href="blog/presentation_efetch.html">ici</a> mon article
+          de blog sur
+          <a href="https://framagit.org/prouby/emacs-fetch">efetch</a>.
         </p>
 	<a href="blog/create_emacs_mode.html"
 	   alt="Blog création d'un mode emacs.">
@@ -36,9 +36,9 @@
 	</a>
       </div>
 
-      
+
     <!-- Insert footer -->
     <?php include('footer.php'); ?>
-    
+
   </body>
 </html>
