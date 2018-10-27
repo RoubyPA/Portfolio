@@ -30,8 +30,8 @@
           de blog sur
           <a href="https://framagit.org/prouby/emacs-fetch">efetch</a>.
         </p>
-	<a href="blog/create_emacs_mode.html"
-	   alt="Blog création d'un mode emacs.">
+	<a href="blog/presentation_efetch.html"
+	   alt="Blog presentation de efetch.">
           <img class="bg" src="blog/efetch_01.png" />
 	</a>
       </div>
