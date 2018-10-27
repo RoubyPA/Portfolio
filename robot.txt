@@ -3,4 +3,5 @@ Disallow: /files
 Disallow: /metric
 Disallow: /css
 Disallow: /fonts
+Disallow: /blog
 Disallow: /404.php
